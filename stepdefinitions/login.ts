@@ -60,11 +60,8 @@ const newProcurement: newProcurementPageObject = new newProcurementPageObject();
           await expect(newProcurement.resultsTitle.isDisplayed()).to.eventually.equal(true);
           
           
-          //let list = element.all(by.css('.results-title'));
-          //expect(list.get(0).getText()).to.eventually.contains('lihthangeautomaat');
-          //expect(list.get(0).getText()).to.eventually.equal('Foo was logged in.');
-          
-          //element.all(by.css('.queue.add')).get(0).click();
+   
+          element.all(by.css('.queue.add')).get(0).click();
           
           await element(by.xpath('//*[@id="results"]/li/rhr-search-result-row/h3/a')).click();
           //element(by.css('[ng-click="cancel()"]')); 
