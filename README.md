@@ -6,11 +6,10 @@
 ### RHR kasutajaliidese testid, pakkumuse lisamine  
 
 
-```
-   npm install 
 
-
+npm install 
 ```
+
 npm run webdriver-update
 ``` 
 
@@ -18,7 +17,7 @@ npm run webdriver-update
 ```
 npm run webdriver-start
 ```
-```
+
 npm run build
 ```
 
