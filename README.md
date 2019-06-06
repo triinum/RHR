@@ -12,16 +12,18 @@ npm install
 
 npm run webdriver-update
 ``` 
-
-* Teises aknas
-```
 npm run webdriver-start
 ```
+
+
+
+* Teises aknas
+
 
 npm run build
 ```
 
-* Jooksuta
+npm run test
 ```
-npm test
-```
+
+
