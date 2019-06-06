@@ -106,10 +106,8 @@ const newProcurement: newProcurementPageObject = new newProcurementPageObject();
          
           //Hankija nimi
           element(by.xpath("//option[. = 'Siseministeerium']")).click();
-          browser.waitForAngular();   
           
           await element(by.buttonText("Jätka")).click();
-          browser.waitForAngular(); 
           
           }); 
   
@@ -121,7 +119,6 @@ const newProcurement: newProcurementPageObject = new newProcurementPageObject();
           
           //lõpeta tegevus
           element(by.linkText('Tegevuse lõpetamine')).click();
-          browser.waitForAngular();
           
           }); 
   
